@@ -6,7 +6,7 @@ body {
 main {
   background-image: url('img/img.jpeg');
   background-repeat: repeat;
-  background-position: center;
+  background-position: center top;
   
   height: 100vh;
   width: 100vw;
@@ -44,7 +44,7 @@ a:hover {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 46px;
+  font-size: 64px;
   letter-spacing: 3px;
 }
 
@@ -118,7 +118,7 @@ a:hover {
 
 /* Responsive */
 
-@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+@media only screen and (min-width: 480px) and (max-width: 800px) {
    .link-url {
      font-size: 48px;
    }
@@ -128,7 +128,7 @@ a:hover {
    }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .link-url {
     font-size: 36px;
   }
