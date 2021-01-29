@@ -18,7 +18,7 @@ main {
 }
 
 a:hover {
-  font-size: smaller;
+  opacity: 1;
 }
 
 .links-container {
@@ -47,6 +47,7 @@ a:hover {
   text-transform: uppercase;
   font-size: 52px;
   letter-spacing: 3px;
+  opacity: 0.8;
 }
 
 /* Links Positioning */
