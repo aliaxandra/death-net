@@ -22,7 +22,6 @@ a:hover {
 
 .links-container {
   height: 100vh;
-  padding: 1rem;
 
   display: flex;
   flex-direction: column;
@@ -45,7 +44,7 @@ a:hover {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: xxx-large;
+  font-size: 46px;
   letter-spacing: 3px;
 }
 
@@ -121,18 +120,30 @@ a:hover {
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
    .link-url {
-     font-size: xx-large;
+     font-size: 48px;
+   }
+   .links-container {
+      padding-left: 0;
+      margin-left: -2rem;
    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .link-url {
-    font-size: x-large;
+    font-size: 36px;
+  }
+  .links-container {
+    padding-left: 0;
+    margin-left: -2rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .link-url {
-    font-size: large;
+    font-size: 32px;
+  }
+  .links-container {
+    padding-left: 0;
+    margin-left: -2rem;
   }
 }
