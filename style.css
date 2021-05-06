@@ -4,6 +4,7 @@ body {
 }
 
 .background-cover {
+  background-color: #03151e;
   background-image: url('cover.jpg');
   background-repeat: no-repeat;
   background-position: center top;
@@ -24,7 +25,6 @@ body {
 }
 
 main {
-  background-color: #03151e;
   background-image: url('img1.jpg');
   background-repeat: repeat;
   background-position: center top;
