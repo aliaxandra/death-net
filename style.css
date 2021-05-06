@@ -4,7 +4,7 @@ body {
 }
 
 main {
-  background-image: url('img/img1.jpg');
+  background-image: url('img1.jpg');
   background-repeat: repeat;
   background-position: center top;
   background-size: auto 100%;
@@ -23,6 +23,9 @@ a:hover {
 
 .links-container {
   height: 100vh;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
   display: flex;
   flex-direction: column;
@@ -67,7 +70,7 @@ a:hover {
 #link_3 {
   position: relative;
   left: 16vw;
-  top: -1vh;
+  top: -2vh;
 }
 
 #link_4 {
@@ -109,7 +112,7 @@ a:hover {
 #link_10 {
   position: relative;
   left: 34vw;
-  top: -2vh;
+  top: -4vh;
 }
 
 #link_11 {
