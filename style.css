@@ -21,6 +21,12 @@ a:hover {
   opacity: 1;
 }
 
+.corner-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .links-container {
   height: 100vh;
 
