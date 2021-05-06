@@ -5,8 +5,22 @@ body {
 
 .background-cover {
   background-image: url('cover.jpg');
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center top;
+
+  animation-name: add-cover;
+  animation-duration: .5s;
+}
+
+@keyframes add-cover {
+  from {
+    background-image: url('img1.jpg');
+    background-repeat: repeat;
+  }
+  to {
+    background-image: url('cover.jpg');
+    background-repeat: no-repeat;
+  }
 }
 
 main {
@@ -22,6 +36,17 @@ main {
 
   display: flex;
   align-items: center;
+}
+
+@keyframes remove-cover {
+  from {
+    background-image: url('cover.jpg');
+    background-repeat: no-repeat;
+  }
+  to {
+    background-image: url('img1.jpg');
+    background-repeat: repeat;
+  }
 }
 
 a:hover {
