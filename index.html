@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-8M8QL68BYD');
   </script>
 
@@ -23,9 +22,22 @@
 
 <body>
 
-  <main class="main">
+      <script>
+        function getBgCover() {
+          var background = document.getElementById("main");
+          background.classList.add("background-cover");
+
+          function removeBgCover() {
+            background.classList.remove("background-cover");
+          }
+
+          setTimeout(removeBgCover, 1000);
+        }
+      </script>
+
+  <main id="main" class="main">
     <article class="corner-container">
-      <img class="corner-image" src="corner.gif" alt="" srcset="">
+      <img onclick="getBgCover()" class="corner-image" src="corner.gif" alt="" srcset="">
     </article>
     <article class="links-container">
       <ul class="links-list">

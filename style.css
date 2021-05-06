@@ -3,7 +3,14 @@ body {
   font-family: 'Viaoda Libre', cursive;
 }
 
+.background-cover {
+  background-image: url('cover.jpg');
+  background-repeat:no-repeat;
+  background-position: center top;
+}
+
 main {
+  background-color: #03151e;
   background-image: url('img1.jpg');
   background-repeat: repeat;
   background-position: center top;
@@ -22,6 +29,7 @@ a:hover {
 }
 
 .corner-image {
+  width: 250px;
   position: absolute;
   right: 0;
   top: 0;
