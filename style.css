@@ -165,4 +165,7 @@ a:hover {
     padding-left: 0;
     margin-left: -2rem;
   }
+  .corner-image {
+    width: 150px;
+  }
 }
